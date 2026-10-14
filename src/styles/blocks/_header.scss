@@ -1,0 +1,19 @@
+@use "../helpers" as *;
+@use "../variables" as *;
+
+.header {
+  width: 100%;
+  padding-block: to-rem(24);
+
+  &__container {
+    @include flex(row, space-between, center);
+  }
+
+  &__logo {
+    flex-shrink: 0;
+
+    @include hover {
+      opacity: 0.8;
+    }
+  }
+}

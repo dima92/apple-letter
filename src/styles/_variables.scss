@@ -1,0 +1,23 @@
+@use "helpers/functions" as *;
+
+// Сетка
+$container-width: 640;
+$container-padding-x: 15;
+
+// Анимации
+$transition-duration: 0.3s;
+$transition-base: all $transition-duration ease-in-out;
+
+// Шрифты
+$font-family: "Verdana", sans-serif;
+
+// ==========================================================================
+// ЦВЕТОВАЯ ПАЛИТРА (UI-KIT) — ПРОЕКТ HTML-EMAIL
+// ==========================================================================
+
+$bg-color: #141415;
+$dark-color: #313131;
+$light-color: #7d7d7d;
+$white-color: #fff;
+$accent-color: #51acff;
+$background: #edbb99, linear-gradient(180deg, #fda472 0%, #f7b78f 100%);
